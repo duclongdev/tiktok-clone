@@ -8,6 +8,9 @@
   --default-layout-width: 1150px;
   --default-layout-header-height: 60px;
   --sideBar-width: 356px;
+
+  //color-input
+  --black: black;
 }
 
 * {
@@ -25,4 +28,10 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   text-rendering: optimizespeed;
+}
+button,
+input,
+[tabindex] {
+  outline: none;
+  border: none;
 }
